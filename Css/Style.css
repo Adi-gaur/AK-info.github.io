@@ -4,42 +4,53 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
   }
-  html,body{
+  /* html,body{
     display: grid;
     height: 100vh;
     place-items:center;
     background-color: darkseagreen;
-  }
+  } */
+html,body{
+  background-image: url(/Image/bg-image-lore.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  place-items: center;
+  display: flex;
+  height: 100vh;
+}
+
   .logo img{
     width: 128px;
-    height: 112px;
+    height: 110px;
     border-radius: 36px;
     padding-inline-start: 10px;
     margin-left: 13px;
   }
   .logo p{
     text-align: center;
-    color: whitesmoke;
+    color: aliceblue;
     font-size: x-large;
   }
   .main_div{
     width: 365px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
     padding: 30px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 36px;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); */
   }
   .main_div .title{
     text-align: center;
     font-size: 30px;
     font-weight: 600;
+    color: antiquewhite;
   }
-  .main_div .social_icons{
+  /* .main_div .social_icons{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-  }
-  .social_icons a{
+  } */
+  /* .social_icons a{
     display: block;
     height: 45px;
     width: 100%;
@@ -50,8 +61,8 @@
     color: #fff;
     text-decoration: none;
     transition: all 0.3s linear;
-  }
-  .social_icons a span{
+  } */
+  /* .social_icons a span{
     margin-left: 5px;
     font-size: 18px;
   }
@@ -68,7 +79,7 @@
   }
   .social_icons a:last-child:hover{
     background: #0d8bd9;
-  }
+  } */
   form {
     margin-top: 25px;
   }
@@ -89,14 +100,14 @@
     transition: all 0.3s ease;
   }
   .input_box input:focus{
-    border-color: #be2edd;
+    border-color: none;
   }
   .input_box .icon{
     position: absolute;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
-    color: grey;
+    color: aqua;
   }
   form .option_div{
     margin-top: 5px;
@@ -110,11 +121,11 @@
   .option_div span{
     margin-left: 5px;
     font-size: 16px;
-    color: #333;
+    color: burlywood;
   }
   .option_div .forget_div a{
     font-size: 16px;
-    color: #be2edd;
+    color: burlywood;
   }
   .button input{
     padding-left: 0;

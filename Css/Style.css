@@ -16,7 +16,7 @@ html,body{
   background-attachment: fixed;
   background-size: cover;
   place-items: center;
-  display: flex;
+  display: grid;
   height: 100vh;
 }
 
